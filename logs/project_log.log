@@ -1,0 +1,156 @@
+2025-02-04 20:25:57.269 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-04 20:25:57.270 | INFO     | __main__:<module>:50 - Project root: C:\Users\sshre\OneDrive\Desktop\NWMSU\44671 -Streaming Data\M4\buzzline-04-sushanta
+2025-02-04 20:25:57.271 | INFO     | __main__:<module>:54 - Data folder: C:\Users\sshre\OneDrive\Desktop\NWMSU\44671 -Streaming Data\M4\buzzline-04-sushanta\data
+2025-02-04 20:25:57.271 | INFO     | __main__:<module>:58 - Data file: C:\Users\sshre\OneDrive\Desktop\NWMSU\44671 -Streaming Data\M4\buzzline-04-sushanta\data\buzz_live.json
+2025-02-04 20:25:57.272 | INFO     | __main__:main:125 - START producer...
+2025-02-04 20:25:57.272 | INFO     | __main__:main:126 - Hit CTRL c (or CMD c) to close.
+2025-02-04 20:25:57.272 | INFO     | __main__:get_message_interval:40 - Message interval: 3 seconds
+2025-02-04 20:25:57.273 | INFO     | __main__:main:134 - {'message': 'I just saw a meme! It was funny.', 'author': 'Eve'}
+2025-02-04 20:26:00.274 | INFO     | __main__:main:134 - {'message': 'I just tried a movie! It was weird.', 'author': 'Bob'}
+2025-02-04 20:26:03.277 | INFO     | __main__:main:134 - {'message': 'I just tried a trick! It was exciting.', 'author': 'Bob'}
+2025-02-04 20:26:06.279 | INFO     | __main__:main:134 - {'message': 'I just saw an app! It was amazing.', 'author': 'Eve'}
+2025-02-04 20:26:09.282 | INFO     | __main__:main:134 - {'message': 'I just found an app! It was funny.', 'author': 'Alice'}
+2025-02-04 20:26:12.284 | INFO     | __main__:main:134 - {'message': 'I just found a movie! It was boring.', 'author': 'Bob'}
+2025-02-04 20:26:15.287 | INFO     | __main__:main:134 - {'message': 'I just tried a movie! It was funny.', 'author': 'Charlie'}
+2025-02-04 20:26:18.291 | INFO     | __main__:main:134 - {'message': 'I just tried a trick! It was boring.', 'author': 'Eve'}
+2025-02-04 20:26:21.294 | INFO     | __main__:main:134 - {'message': 'I just shared an app! It was amazing.', 'author': 'Eve'}
+2025-02-04 20:26:24.297 | INFO     | __main__:main:134 - {'message': 'I just found a meme! It was boring.', 'author': 'Eve'}
+2025-02-04 20:26:27.298 | INFO     | __main__:main:134 - {'message': 'I just loved a meme! It was boring.', 'author': 'Bob'}
+2025-02-04 20:26:30.301 | INFO     | __main__:main:134 - {'message': 'I just found a story! It was exciting.', 'author': 'Alice'}
+2025-02-04 20:26:33.303 | INFO     | __main__:main:134 - {'message': 'I just loved a story! It was exciting.', 'author': 'Charlie'}
+2025-02-04 20:26:36.305 | INFO     | __main__:main:134 - {'message': 'I just found a story! It was boring.', 'author': 'Bob'}
+2025-02-04 20:26:39.307 | INFO     | __main__:main:134 - {'message': 'I just found a movie! It was boring.', 'author': 'Charlie'}
+2025-02-04 20:26:42.310 | INFO     | __main__:main:134 - {'message': 'I just saw a story! It was exciting.', 'author': 'Charlie'}
+2025-02-04 20:26:45.312 | INFO     | __main__:main:134 - {'message': 'I just shared an app! It was exciting.', 'author': 'Eve'}
+2025-02-04 20:26:48.314 | INFO     | __main__:main:134 - {'message': 'I just tried a story! It was funny.', 'author': 'Charlie'}
+2025-02-04 20:26:48.969 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-04 20:26:48.969 | INFO     | __main__:<module>:38 - Project root: C:\Users\sshre\OneDrive\Desktop\NWMSU\44671 -Streaming Data\M4\buzzline-04-sushanta
+2025-02-04 20:26:48.969 | INFO     | __main__:<module>:39 - Data folder: C:\Users\sshre\OneDrive\Desktop\NWMSU\44671 -Streaming Data\M4\buzzline-04-sushanta\data
+2025-02-04 20:26:48.969 | INFO     | __main__:<module>:40 - Data file: C:\Users\sshre\OneDrive\Desktop\NWMSU\44671 -Streaming Data\M4\buzzline-04-sushanta\data\buzz_live.json
+2025-02-04 20:26:50.857 | INFO     | __main__:main:155 - START consumer.
+2025-02-04 20:26:51.316 | INFO     | __main__:main:134 - {'message': 'I just shared a trick! It was boring.', 'author': 'Charlie'}
+2025-02-04 20:26:51.369 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just shared a trick! It was boring.', 'author': 'Charlie'}
+2025-02-04 20:26:51.369 | INFO     | __main__:process_message:121 - Message received from author: Charlie
+2025-02-04 20:26:51.370 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 1}
+2025-02-04 20:26:51.498 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just shared a trick! It was boring.", "author": "Charlie"}
+
+2025-02-04 20:26:54.318 | INFO     | __main__:main:134 - {'message': 'I just shared a movie! It was weird.', 'author': 'Alice'}
+2025-02-04 20:26:54.517 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just shared a movie! It was weird.', 'author': 'Alice'}
+2025-02-04 20:26:54.518 | INFO     | __main__:process_message:121 - Message received from author: Alice
+2025-02-04 20:26:54.518 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 1, 'Alice': 1}
+2025-02-04 20:26:54.579 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just shared a movie! It was weird.", "author": "Alice"}
+
+2025-02-04 20:26:57.321 | INFO     | __main__:main:134 - {'message': 'I just saw an app! It was exciting.', 'author': 'Eve'}
+2025-02-04 20:26:57.590 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just saw an app! It was exciting.', 'author': 'Eve'}
+2025-02-04 20:26:57.590 | INFO     | __main__:process_message:121 - Message received from author: Eve
+2025-02-04 20:26:57.590 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Eve': 1}
+2025-02-04 20:26:57.643 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just saw an app! It was exciting.", "author": "Eve"}
+
+2025-02-04 20:27:00.323 | INFO     | __main__:main:134 - {'message': 'I just found a movie! It was weird.', 'author': 'Alice'}
+2025-02-04 20:27:00.661 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just found a movie! It was weird.', 'author': 'Alice'}
+2025-02-04 20:27:00.661 | INFO     | __main__:process_message:121 - Message received from author: Alice
+2025-02-04 20:27:00.661 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 1, 'Alice': 2, 'Eve': 1}
+2025-02-04 20:27:00.726 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just found a movie! It was weird.", "author": "Alice"}
+
+2025-02-04 20:27:03.326 | INFO     | __main__:main:134 - {'message': 'I just tried a movie! It was weird.', 'author': 'Charlie'}
+2025-02-04 20:27:03.739 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just tried a movie! It was weird.', 'author': 'Charlie'}
+2025-02-04 20:27:03.739 | INFO     | __main__:process_message:121 - Message received from author: Charlie
+2025-02-04 20:27:03.739 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 2, 'Alice': 2, 'Eve': 1}
+2025-02-04 20:27:03.962 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just tried a movie! It was weird.", "author": "Charlie"}
+
+2025-02-04 20:27:06.329 | INFO     | __main__:main:134 - {'message': 'I just found a story! It was exciting.', 'author': 'Charlie'}
+2025-02-04 20:27:06.470 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just found a story! It was exciting.', 'author': 'Charlie'}
+2025-02-04 20:27:06.470 | INFO     | __main__:process_message:121 - Message received from author: Charlie
+2025-02-04 20:27:06.470 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 3, 'Alice': 2, 'Eve': 1}
+2025-02-04 20:27:07.020 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just found a story! It was exciting.", "author": "Charlie"}
+
+2025-02-04 20:27:09.331 | INFO     | __main__:main:134 - {'message': 'I just loved a meme! It was boring.', 'author': 'Alice'}
+2025-02-04 20:27:09.529 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just loved a meme! It was boring.', 'author': 'Alice'}
+2025-02-04 20:27:09.529 | INFO     | __main__:process_message:121 - Message received from author: Alice
+2025-02-04 20:27:09.529 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 3, 'Alice': 3, 'Eve': 1}
+2025-02-04 20:27:09.591 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just loved a meme! It was boring.", "author": "Alice"}
+
+2025-02-04 20:27:12.334 | INFO     | __main__:main:134 - {'message': 'I just saw a trick! It was boring.', 'author': 'Bob'}
+2025-02-04 20:27:12.602 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just saw a trick! It was boring.', 'author': 'Bob'}
+2025-02-04 20:27:12.602 | INFO     | __main__:process_message:121 - Message received from author: Bob
+2025-02-04 20:27:12.602 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 3, 'Alice': 3, 'Eve': 1, 'Bob': 1}
+2025-02-04 20:27:12.690 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just saw a trick! It was boring.", "author": "Bob"}
+
+2025-02-04 20:27:15.336 | INFO     | __main__:main:134 - {'message': 'I just shared a trick! It was exciting.', 'author': 'Charlie'}
+2025-02-04 20:27:15.700 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just shared a trick! It was exciting.', 'author': 'Charlie'}
+2025-02-04 20:27:15.700 | INFO     | __main__:process_message:121 - Message received from author: Charlie
+2025-02-04 20:27:15.700 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 4, 'Alice': 3, 'Eve': 1, 'Bob': 1}
+2025-02-04 20:27:15.745 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just shared a trick! It was exciting.", "author": "Charlie"}
+
+2025-02-04 20:27:18.338 | INFO     | __main__:main:134 - {'message': 'I just found a meme! It was exciting.', 'author': 'Eve'}
+2025-02-04 20:27:18.764 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just found a meme! It was exciting.', 'author': 'Eve'}
+2025-02-04 20:27:18.765 | INFO     | __main__:process_message:121 - Message received from author: Eve
+2025-02-04 20:27:18.766 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 4, 'Alice': 3, 'Eve': 2, 'Bob': 1}
+2025-02-04 20:27:18.830 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just found a meme! It was exciting.", "author": "Eve"}
+
+2025-02-04 20:27:21.340 | INFO     | __main__:main:134 - {'message': 'I just loved a story! It was boring.', 'author': 'Eve'}
+2025-02-04 20:27:21.839 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just loved a story! It was boring.', 'author': 'Eve'}
+2025-02-04 20:27:21.840 | INFO     | __main__:process_message:121 - Message received from author: Eve
+2025-02-04 20:27:21.841 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 4, 'Alice': 3, 'Eve': 3, 'Bob': 1}
+2025-02-04 20:27:21.917 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just loved a story! It was boring.", "author": "Eve"}
+
+2025-02-04 20:27:24.342 | INFO     | __main__:main:134 - {'message': 'I just tried a movie! It was funny.', 'author': 'Bob'}
+2025-02-04 20:27:24.425 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just tried a movie! It was funny.', 'author': 'Bob'}
+2025-02-04 20:27:24.426 | INFO     | __main__:process_message:121 - Message received from author: Bob
+2025-02-04 20:27:24.427 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 4, 'Alice': 3, 'Eve': 3, 'Bob': 2}
+2025-02-04 20:27:24.487 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just tried a movie! It was funny.", "author": "Bob"}
+
+2025-02-04 20:27:27.345 | INFO     | __main__:main:134 - {'message': 'I just shared a movie! It was exciting.', 'author': 'Eve'}
+2025-02-04 20:27:27.495 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just shared a movie! It was exciting.', 'author': 'Eve'}
+2025-02-04 20:27:27.495 | INFO     | __main__:process_message:121 - Message received from author: Eve
+2025-02-04 20:27:27.495 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 4, 'Alice': 3, 'Eve': 4, 'Bob': 2}
+2025-02-04 20:27:27.548 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just shared a movie! It was exciting.", "author": "Eve"}
+
+2025-02-04 20:27:30.347 | INFO     | __main__:main:134 - {'message': 'I just tried a story! It was amazing.', 'author': 'Alice'}
+2025-02-04 20:27:30.560 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just tried a story! It was amazing.', 'author': 'Alice'}
+2025-02-04 20:27:30.560 | INFO     | __main__:process_message:121 - Message received from author: Alice
+2025-02-04 20:27:30.561 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 4, 'Alice': 4, 'Eve': 4, 'Bob': 2}
+2025-02-04 20:27:30.612 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just tried a story! It was amazing.", "author": "Alice"}
+
+2025-02-04 20:27:33.349 | INFO     | __main__:main:134 - {'message': 'I just tried a meme! It was amazing.', 'author': 'Alice'}
+2025-02-04 20:27:33.622 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just tried a meme! It was amazing.', 'author': 'Alice'}
+2025-02-04 20:27:33.623 | INFO     | __main__:process_message:121 - Message received from author: Alice
+2025-02-04 20:27:33.624 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 4, 'Alice': 5, 'Eve': 4, 'Bob': 2}
+2025-02-04 20:27:33.704 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just tried a meme! It was amazing.", "author": "Alice"}
+
+2025-02-04 20:27:36.351 | INFO     | __main__:main:134 - {'message': 'I just saw a movie! It was weird.', 'author': 'Eve'}
+2025-02-04 20:27:36.714 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just saw a movie! It was weird.', 'author': 'Eve'}
+2025-02-04 20:27:36.714 | INFO     | __main__:process_message:121 - Message received from author: Eve
+2025-02-04 20:27:36.715 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 4, 'Alice': 5, 'Eve': 5, 'Bob': 2}
+2025-02-04 20:27:36.789 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just saw a movie! It was weird.", "author": "Eve"}
+
+2025-02-04 20:27:39.355 | INFO     | __main__:main:134 - {'message': 'I just shared a trick! It was weird.', 'author': 'Bob'}
+2025-02-04 20:27:39.800 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just shared a trick! It was weird.', 'author': 'Bob'}
+2025-02-04 20:27:39.800 | INFO     | __main__:process_message:121 - Message received from author: Bob
+2025-02-04 20:27:39.801 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 4, 'Alice': 5, 'Eve': 5, 'Bob': 3}
+2025-02-04 20:27:39.894 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just shared a trick! It was weird.", "author": "Bob"}
+
+2025-02-04 20:27:42.358 | INFO     | __main__:main:134 - {'message': 'I just found an app! It was exciting.', 'author': 'Charlie'}
+2025-02-04 20:27:42.402 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just found an app! It was exciting.', 'author': 'Charlie'}
+2025-02-04 20:27:42.403 | INFO     | __main__:process_message:121 - Message received from author: Charlie
+2025-02-04 20:27:42.404 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 5, 'Alice': 5, 'Eve': 5, 'Bob': 3}
+2025-02-04 20:27:42.457 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just found an app! It was exciting.", "author": "Charlie"}
+
+2025-02-04 20:27:45.363 | INFO     | __main__:main:134 - {'message': 'I just found a meme! It was amazing.', 'author': 'Charlie'}
+2025-02-04 20:27:45.468 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just found a meme! It was amazing.', 'author': 'Charlie'}
+2025-02-04 20:27:45.469 | INFO     | __main__:process_message:121 - Message received from author: Charlie
+2025-02-04 20:27:45.469 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 6, 'Alice': 5, 'Eve': 5, 'Bob': 3}
+2025-02-04 20:27:45.524 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just found a meme! It was amazing.", "author": "Charlie"}
+
+2025-02-04 20:27:48.365 | INFO     | __main__:main:134 - {'message': 'I just saw a story! It was amazing.', 'author': 'Eve'}
+2025-02-04 20:27:48.532 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just saw a story! It was amazing.', 'author': 'Eve'}
+2025-02-04 20:27:48.533 | INFO     | __main__:process_message:121 - Message received from author: Eve
+2025-02-04 20:27:48.534 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 6, 'Alice': 5, 'Eve': 6, 'Bob': 3}
+2025-02-04 20:27:48.605 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just saw a story! It was amazing.", "author": "Eve"}
+
+2025-02-04 20:27:51.368 | INFO     | __main__:main:134 - {'message': 'I just tried a trick! It was funny.', 'author': 'Bob'}
+2025-02-04 20:27:51.616 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just tried a trick! It was funny.', 'author': 'Bob'}
+2025-02-04 20:27:51.616 | INFO     | __main__:process_message:121 - Message received from author: Bob
+2025-02-04 20:27:51.617 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 6, 'Alice': 5, 'Eve': 6, 'Bob': 4}
+2025-02-04 20:27:51.675 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just tried a trick! It was funny.", "author": "Bob"}
+
