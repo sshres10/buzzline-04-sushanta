@@ -154,3 +154,21 @@
 2025-02-04 20:27:51.617 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 6, 'Alice': 5, 'Eve': 6, 'Bob': 4}
 2025-02-04 20:27:51.675 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just tried a trick! It was funny.", "author": "Bob"}
 
+2025-02-04 20:27:54.370 | INFO     | __main__:main:134 - {'message': 'I just saw a movie! It was funny.', 'author': 'Bob'}
+2025-02-04 20:27:54.684 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just saw a movie! It was funny.', 'author': 'Bob'}
+2025-02-04 20:27:54.684 | INFO     | __main__:process_message:121 - Message received from author: Bob
+2025-02-04 20:27:54.685 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 6, 'Alice': 5, 'Eve': 6, 'Bob': 5}
+2025-02-04 20:27:54.848 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just saw a movie! It was funny.", "author": "Bob"}
+
+2025-02-04 20:27:57.372 | INFO     | __main__:main:134 - {'message': 'I just saw a movie! It was exciting.', 'author': 'Alice'}
+2025-02-04 20:27:57.859 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just saw a movie! It was exciting.', 'author': 'Alice'}
+2025-02-04 20:27:57.860 | INFO     | __main__:process_message:121 - Message received from author: Alice
+2025-02-04 20:27:57.861 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 6, 'Alice': 6, 'Eve': 6, 'Bob': 5}
+2025-02-04 20:27:57.957 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just saw a movie! It was exciting.", "author": "Alice"}
+
+2025-02-04 20:28:00.374 | INFO     | __main__:main:134 - {'message': 'I just loved a trick! It was funny.', 'author': 'Charlie'}
+2025-02-04 20:28:00.465 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just loved a trick! It was funny.', 'author': 'Charlie'}
+2025-02-04 20:28:00.466 | INFO     | __main__:process_message:121 - Message received from author: Charlie
+2025-02-04 20:28:00.467 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 7, 'Alice': 6, 'Eve': 6, 'Bob': 5}
+2025-02-04 20:28:00.523 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just loved a trick! It was funny.", "author": "Charlie"}
+
