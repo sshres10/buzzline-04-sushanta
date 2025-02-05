@@ -172,3 +172,21 @@
 2025-02-04 20:28:00.467 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 7, 'Alice': 6, 'Eve': 6, 'Bob': 5}
 2025-02-04 20:28:00.523 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just loved a trick! It was funny.", "author": "Charlie"}
 
+2025-02-04 20:28:03.376 | INFO     | __main__:main:134 - {'message': 'I just shared a meme! It was weird.', 'author': 'Eve'}
+2025-02-04 20:28:03.534 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just shared a meme! It was weird.', 'author': 'Eve'}
+2025-02-04 20:28:03.535 | INFO     | __main__:process_message:121 - Message received from author: Eve
+2025-02-04 20:28:03.536 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 7, 'Alice': 6, 'Eve': 7, 'Bob': 5}
+2025-02-04 20:28:03.644 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just shared a meme! It was weird.", "author": "Eve"}
+
+2025-02-04 20:28:06.379 | INFO     | __main__:main:134 - {'message': 'I just tried an app! It was boring.', 'author': 'Bob'}
+2025-02-04 20:28:06.653 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just tried an app! It was boring.', 'author': 'Bob'}
+2025-02-04 20:28:06.654 | INFO     | __main__:process_message:121 - Message received from author: Bob
+2025-02-04 20:28:06.654 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 7, 'Alice': 6, 'Eve': 7, 'Bob': 6}
+2025-02-04 20:28:06.716 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just tried an app! It was boring.", "author": "Bob"}
+
+2025-02-04 20:28:09.380 | INFO     | __main__:main:134 - {'message': 'I just shared a meme! It was funny.', 'author': 'Alice'}
+2025-02-04 20:28:09.724 | INFO     | __main__:process_message:115 - Processed JSON message: {'message': 'I just shared a meme! It was funny.', 'author': 'Alice'}
+2025-02-04 20:28:09.725 | INFO     | __main__:process_message:121 - Message received from author: Alice
+2025-02-04 20:28:09.727 | INFO     | __main__:process_message:127 - Updated author counts: {'Charlie': 7, 'Alice': 7, 'Eve': 7, 'Bob': 6}
+2025-02-04 20:28:09.801 | INFO     | __main__:process_message:133 - Chart updated successfully for message: {"message": "I just shared a meme! It was funny.", "author": "Alice"}
+
