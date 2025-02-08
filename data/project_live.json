@@ -129,3 +129,6 @@
 {"message": "I just loved a meme! It was boring.", "author": "Charlie", "timestamp": "2025-02-07 21:31:03", "category": "humor", "sentiment": 0.94, "keyword_mentioned": "meme", "message_length": 35}
 {"message": "I just found JavaScript! It was weird.", "author": "Eve", "timestamp": "2025-02-07 21:31:08", "category": "tech", "sentiment": 0.23, "keyword_mentioned": "JavaScript", "message_length": 38}
 {"message": "I just loved a movie! It was boring.", "author": "Eve", "timestamp": "2025-02-07 21:31:13", "category": "entertainment", "sentiment": 0.26, "keyword_mentioned": "movie", "message_length": 36}
+{"message": "I just tried game! It was amazing.", "author": "Bob", "timestamp": "2025-02-07 21:31:18", "category": "gaming", "sentiment": 0.62, "keyword_mentioned": "game", "message_length": 34}
+{"message": "I just found a trick! It was exciting.", "author": "Alice", "timestamp": "2025-02-07 21:31:23", "category": "other", "sentiment": 0.4, "keyword_mentioned": "other", "message_length": 38}
+{"message": "I just shared JavaScript! It was amazing.", "author": "Eve", "timestamp": "2025-02-07 21:31:28", "category": "tech", "sentiment": 0.27, "keyword_mentioned": "JavaScript", "message_length": 41}
