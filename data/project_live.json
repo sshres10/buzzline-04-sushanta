@@ -132,3 +132,6 @@
 {"message": "I just tried game! It was amazing.", "author": "Bob", "timestamp": "2025-02-07 21:31:18", "category": "gaming", "sentiment": 0.62, "keyword_mentioned": "game", "message_length": 34}
 {"message": "I just found a trick! It was exciting.", "author": "Alice", "timestamp": "2025-02-07 21:31:23", "category": "other", "sentiment": 0.4, "keyword_mentioned": "other", "message_length": 38}
 {"message": "I just shared JavaScript! It was amazing.", "author": "Eve", "timestamp": "2025-02-07 21:31:28", "category": "tech", "sentiment": 0.27, "keyword_mentioned": "JavaScript", "message_length": 41}
+{"message": "I just tried an app! It was weird.", "author": "Eve", "timestamp": "2025-02-07 21:31:33", "category": "other", "sentiment": 0.96, "keyword_mentioned": "other", "message_length": 34}
+{"message": "I just found a story! It was weird.", "author": "Bob", "timestamp": "2025-02-07 21:31:38", "category": "other", "sentiment": 0.39, "keyword_mentioned": "other", "message_length": 35}
+{"message": "I just shared a story! It was amazing.", "author": "Charlie", "timestamp": "2025-02-07 21:31:43", "category": "other", "sentiment": 0.38, "keyword_mentioned": "other", "message_length": 38}
